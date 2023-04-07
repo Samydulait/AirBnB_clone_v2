@@ -5,7 +5,7 @@ from datetime import date
 
 
 def do_pack():
-    """ A Fabric script that generates a.tgz archive from the contents of web_static folder"""
+    """ A Fabric script that generates an archive from the contents of web_static folder"""
 
     filename = strftime("%Y%m%d%H%M%S")
     try:
