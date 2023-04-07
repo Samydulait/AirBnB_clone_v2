@@ -6,13 +6,13 @@ from datetime import datetime
 from os import path
 
 
-env.hosts = ['52.90.15.7', '54.237.114.74']
+env.hosts = ['100.25.131.159', '54.237.122.143']
 env.user = 'ubuntu'
 env.key_filename = '~/.ssh/School'
 
 
 def do_deploy(archive_path):
-        """Deploy web files to server
+        """Deploys archive files generated to web server
         """
         try:
                 if not (path.exists(archive_path)):
